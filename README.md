@@ -11,7 +11,7 @@ In this plugin, based on the standard MashIn step, it simply adds a new paramete
 ### Installation:
 
 You can install (or clone) it from the GIT Repo. In case of updates, you will find them here first:
-- sudo pip3 install https://github.com/Wobbly74/cbpi4-BM_PID_SmartBoilWithPump/archive/main.zip
+- sudo pip3 install https://github.com/Wobbly74/cbpi4-MashHoldStep/archive/main.zip
 
 Afterwards you will need to activate the plugin:
 - cbpi add cbpi4-MashHoldStep

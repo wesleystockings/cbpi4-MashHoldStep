@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='cbpi4-MashHoldStep',
       version='0.0.1',
-      description='CraftBeerPi Plugin to allow resetting target temp at end of mash step to be configurable',
+      description='CraftBeerPi Plugin based on the standard mash steps to add ability to hold kettle temperature when AutoMode set to Off',
       author='Wobbly',
       author_email='neil@milne.com',
       url='https://github.com/Wobbly74/cbpi4-MashHoldStep',

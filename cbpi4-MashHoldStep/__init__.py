@@ -23,8 +23,8 @@ class MashInAndHoldStep(MashInStep):
         else:
             self.kettle.target_temp = 0
             await self.push_update()
-        if self.AutoMode == True:
-            await self.setAutoMode(False)
+       # if self.AutoMode == True:
+           # await self.setAutoMode(False)
         self.cbpi.notify(self.name, self.props.get("Notification","Target Temp reached. Please add malt and click next to move on."), action=[NotificationAction("Next Step", self.NextStep)])
 
 
